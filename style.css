@@ -33,6 +33,29 @@ h1 {
 div {
     font-size: 3rem;
 }
+.bild {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
 
+img {
+    margin: 0 auto;
+}
 
+#game {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 700px) {
+    button {
+        font-size: 0.7rem;
+    }
+
+    img {
+        width: 80%;
+    }
+}
 
