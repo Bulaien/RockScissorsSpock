@@ -1,7 +1,7 @@
-const userChoiceDisplay = document.createElement('p')
-const computerChoiceDisplay = document.createElement('div')
+const userChoiceDisplay = document.createElement('h1')
+const computerChoiceDisplay = document.createElement('h1')
 const resultDisplay =document.createElement('h1')
-const game = document.getElementById('game')
+const game = document.getElementById('game-text')
 game.append(userChoiceDisplay, computerChoiceDisplay, resultDisplay)
 let userChoice
 let computerChoice
@@ -29,7 +29,7 @@ const computerAusgabeGenerieren =() => {
 }
 
 const ergebnisBerechnen = () =>{
-    console.log(userChoice+computerChoice)
+    
     switch(userChoice + computerChoice){
         case'SchereStein':
         case'SchereSpock':
